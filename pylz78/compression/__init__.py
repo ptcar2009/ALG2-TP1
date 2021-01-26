@@ -1,4 +1,4 @@
-from ctrie import CTrie
+from pylz78.ctrie import CTrie
 
 def encodeLZ78(inputfile, filename, n_bytes_index, n_bytes_character):
     with open(inputfile, 'r') as file:
